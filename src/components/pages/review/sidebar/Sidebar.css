@@ -1,0 +1,53 @@
+.sidebarWrapper {
+  flex: 2;
+  background-color: rgb(18, 18, 18);
+  height: 100vh;
+  /* width: ; */
+}
+
+.reviewListContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reviewListName {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.reviewName {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.borderLine {
+  border: 1px solid rgb(46, 42, 42);
+  width: 100%;
+}
+
+.titleName {
+  padding: 20px;
+}
+
+.titleNameList {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.titleNameListItem {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

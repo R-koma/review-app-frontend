@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.todoList {
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: rgb(46, 42, 42);
+}
+
+.taskCard {
+  width: 250px;
+  padding: 10px 25px;
+  margin: 10px 1%;
+  background-color: rgb(18, 18, 18);
+  border-radius: 5px;
+}
+
+.taskCardTitleInputArea {
+  margin-bottom: 10px;
+  width: 80%;
+  cursor: pointer;
+  color: white;
+}
+
+.taskCardTitleInput {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 4px 6px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgb(46, 42, 42);
+}
+.taskAddInputContainer {
+  width: 100%;
+}
+.taskAddInput {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  background-color: rgb(46, 42, 42);
+  outline: none;
+}
+
+.taskBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  background-color: rgb(46, 42, 42);
+  border-radius: 3px;
+}
+
+.taskText {
+  margin-left: 12px;
+  color: white;
+}
+
+.taskTrashButton {
+  margin-right: 9px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(46, 42, 42);
+  color: white;
+}
+
+.taskCardsArea {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+/* タスクを増やして続けても折り返しができるようにflex-wrap: wrap;を記述。 */
+.addTaskCardButtonArea {
+  margin-left: 1%;
+  margin-top: 25px;
+}
+
+.addTaskCardButton {
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: none;
+  font-size: 30px;
+  background-color: rgb(18, 18, 18);
+  color: white;
+  /* box-shadow: 3px 3px 8px 1px #ac7fab; */
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.addTaskCardButton:hover {
+  box-shadow: none;
+  transform: translate(1px, 1px);
+}
+
+.taskCardTitleAndTaskCardDeleteButtonArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskCardDeleteButton {
+  color: rgb(158, 46, 46);
+  font-size: 1.1rem;
+  border: none;
+  background-color: rgb(18, 18, 18);
+  cursor: pointer;
+}
+
+.taskCheckBox {
+  cursor: pointer;
+  margin-left: 5px;
+  /* border: none; */
+}
